@@ -18,8 +18,20 @@ Usar el administrador de paquetes  [pip](https://pip.pypa.io/en/stable/) para in
 pip install -r requirements.txt
 ```
 
+## Ejecucion local
+
+```bash
+export FLASK_APP=app.py
+export SECRET_KEY=0312c72bef44f2607baac5ba7f1f8a0a
+flask run
+```
+
 ## Ejecucion con docker
 
 ```bash
 docker build -t finkargo .
 docker run -d -p 5000:5000 finkargo
+```
+
+## Pruebas con postman/imsonia
+Importar la coleccion del archivo collection.json en postman o imsonia
