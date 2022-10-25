@@ -35,3 +35,6 @@ docker run -d -p 5000:5000 finkargo
 
 ## Pruebas con postman/imsonia
 Importar la coleccion del archivo collection.json en postman o imsonia
+
+## Tiempo de desarrollo
+12 horas
